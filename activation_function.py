@@ -56,17 +56,27 @@ def h_swish(t):
     return t*h_sigmoid(t)
 
 
+
+def leaky_relu(t, slope=0.1):
+    atemp = []
+    for i in t:
+        atemp.append(max(i, 0)+slope*min(i, 0))
+    return atemp
+
+
 x = np.arange(-10, 10, 0.1)
 y_1 = sig_fun(x)
 y_2 = h_sigmoid(x)
 y_3 = relu(x)
 y_4 = swish(x)
 y_5 = h_swish(x)
+y_6 = leaky_relu(x)
 plt.plot(x, y_1, label='sigmoid')
 plt.plot(x, y_2, label='h_sigmoid')
 plt.plot(x, y_3, label='relu')
 plt.plot(x, y_4, label='swish')
 plt.plot(x, y_5, label='h_swish')
+plt.plot(x, y_6, label='leaky_relu')
 
 plt.legend()
 plt.show()
