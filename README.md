@@ -13,7 +13,7 @@
     | ReLU                | Max(x, 0)              |
     | Swish               | x*1/(1+exp(-x))        |
     | H-Swish             | x*ReLU6(x+3)/6         |
-    |LeakyReLU            | Max(0, x)+slope*Min(0, x)|            |
+    |LeakyReLU            | Max(0, x)+slope*Min(0, x)|            
 
 
 ### 
