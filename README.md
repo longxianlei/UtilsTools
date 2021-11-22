@@ -2,7 +2,7 @@
 
 ### 1. The commonly used basic functions for CNNs and other modules.
 
- #### 1.1 This is the comparison of the listed 6 activation functions.
+  ####  1.1 Comparison of the listed 6 activation functions.
 
    Include sigmoid, h-sigmoid, ReLU, swish, h-swish, LeakyReLU.
 
@@ -22,7 +22,7 @@
 ![comparison](comparison.jpg)
 
 ### 2. Vision Transformer.
-We print the basic block/module of ViT.
+We split the ViT into 7 basic modules. Here are the basic blocks/modules of ViT.
 ```python 
 
 class PositionEmbedding(nn.Module)
