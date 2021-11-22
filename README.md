@@ -1,6 +1,6 @@
 # UtilsTools
 
-### The often used basic functions for CNNs and other modules.
+### 1. The often used basic functions for CNNs and other modules.
 
 1. #### This is the comparison of the listed 6 activation functions.
 
@@ -20,7 +20,7 @@
 
 ![comparison](comparison.jpg)
 
-### The Statistical of Vision Transformer.
+### 2. The Statistical of Vision Transformer.
 We print the basic model of each block.
 ```python 
 
@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
 Here are the weights information of each blocks.
 
-```
+```python
 cls_token: torch.Size([1, 1, 768])
 embedding.weight: torch.Size([768, 3, 16, 16])
 embedding.bias: torch.Size([768])
