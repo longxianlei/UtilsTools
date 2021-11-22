@@ -1,6 +1,6 @@
 # UtilsTools
 
-### 1. The often used basic functions for CNNs and other modules.
+### 1. The commonly used basic functions for CNNs and other modules.
 
  #### 1.1 This is the comparison of the listed 6 activation functions.
 
