@@ -20,6 +20,39 @@
 
 ![comparison](comparison.jpg)
 
+### The Statistical of Vision Transformer.
+We print the basic model of each block.
+```python 
+
+class PositionEmbedding(nn.Module)
+
+class MLPBlock(nn.Module)
+
+class MatrixGeneral(nn.Module)
+
+class MultiHeadSelfAttention(nn.Module)
+
+class EncoderBasicBlock(nn.Module)
+
+class TransformerEncoder(nn.Module)
+
+class VisionTransformerRebuild(nn.Module)
+```
+
+```python
+if __name__ == '__main__':
+    model = VisionTransformerRebuild(num_layers=2)
+    x = torch.randn((2, 3, 256, 256))
+    out = model(x)
+
+    state_dict = model.state_dict()
+
+    for key, value in state_dict.items():
+        print("{}: {}".format(key, value.shape))
+```
+
+Here are the weights information of each blocks.
+
 ```
 cls_token: torch.Size([1, 1, 768])
 embedding.weight: torch.Size([768, 3, 16, 16])
