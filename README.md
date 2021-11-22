@@ -2,7 +2,7 @@
 
 ### 1. The often used basic functions for CNNs and other modules.
 
-1. #### This is the comparison of the listed 6 activation functions.
+1.1 #### This is the comparison of the listed 6 activation functions.
 
    Include sigmoid, h-sigmoid, ReLU, swish, h-swish, LeakyReLU.
    
@@ -20,8 +20,8 @@
 
 ![comparison](comparison.jpg)
 
-### 2. The Statistical of Vision Transformer.
-We print the basic model of each block.
+### 2. Vision Transformer.
+We print the basic block/module of ViT.
 ```python 
 
 class PositionEmbedding(nn.Module)
@@ -38,6 +38,7 @@ class TransformerEncoder(nn.Module)
 
 class VisionTransformerRebuild(nn.Module)
 ```
+Here, we print the statistical information of Vision Transformer.
 
 ```python
 if __name__ == '__main__':
@@ -51,7 +52,7 @@ if __name__ == '__main__':
         print("{}: {}".format(key, value.shape))
 ```
 
-Here are the weights information of each blocks.
+Here are output of each blocks.
 
 ```python
 cls_token: torch.Size([1, 1, 768])
