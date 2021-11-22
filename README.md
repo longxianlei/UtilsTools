@@ -20,7 +20,7 @@
 
 ![comparison](comparison.jpg)
 
-
+```
 cls_token: torch.Size([1, 1, 768])
 embedding.weight: torch.Size([768, 3, 16, 16])
 embedding.bias: torch.Size([768])
@@ -61,3 +61,4 @@ transformer.norm.weight: torch.Size([768])
 transformer.norm.bias: torch.Size([768])
 classifier.weight: torch.Size([1000, 768])
 classifier.bias: torch.Size([1000])
+```
