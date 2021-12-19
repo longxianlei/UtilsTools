@@ -100,3 +100,14 @@ transformer.norm.bias: torch.Size([768])
 classifier.weight: torch.Size([1000, 768])
 classifier.bias: torch.Size([1000])
 ```
+
+
+### 3. Particle Filter.
+
+#### Unnormalization weights when resampling. 
+After each iteration/resampling, we should set the weights with average distribution. If not normalization, the effect is shown in below 👇 ⬇️.
+![unnorm](unnormalized_results.png)
+
+#### Normalization weights when resampling. 
+After each iteration/resampling, we should set the weights with average distribution. 'weights=1/num_weights'. After reset sampling weights, effect is this👇 ⬇️.
+![unnorm](normalized_results.png)
