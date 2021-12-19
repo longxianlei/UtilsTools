@@ -111,3 +111,9 @@ After each iteration/resampling, we should set the weights with average distribu
 #### Normalization weights when resampling. 
 After each iteration/resampling, we should set the weights with average distribution. 'weights=1/num_weights'. After reset sampling weights, effect is this👇 ⬇️.
 ![unnorm](normalized_results.png)
+
+
+### References 
+[Kalman-and-Bayesian-Filters-in-Python: Particle filter](https://nbviewer.org/github/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/12-Particle-Filters.ipynb)
+[UCB lecture: PF](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa15/slides/lecture23-particle-filters.pdf)
+[Parcticle Filter Explained With Python Code From Scratch](https://ros-developer.com/2019/04/10/parcticle-filter-explained-with-python-code-from-scratch/)
