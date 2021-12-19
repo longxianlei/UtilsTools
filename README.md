@@ -2,7 +2,7 @@
 
 ### 1. The commonly used basic functions for CNNs and other modules.
 
-  ####  1.1 Comparison of the listed 6 activation functions.
+  ####  Comparison of the listed 6 activation functions.
 
    Include sigmoid, h-sigmoid, ReLU, swish, h-swish, LeakyReLU.
 
