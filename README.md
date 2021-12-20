@@ -106,11 +106,11 @@ classifier.bias: torch.Size([1000])
 
 #### Unnormalization weights when resampling. 
 After each iteration/resampling, we should set the weights with average distribution. If not normalization, the effect is shown in below 👇 ⬇️.
-![unnorm](unnormalized_results.png)
+![unnorm](./ParticleFilter/unnormalized_results.png)
 
 #### Normalization weights when resampling. 
 After each iteration/resampling, we should set the weights with average distribution. 'weights=1/num_weights'. After reset sampling weights, effect is this👇 ⬇️.
-![unnorm](normalized_results.png)
+![unnorm](./ParticleFilter/normalized_results.png)
 
 Kalman filter is desgined for Gaussian distribution linear system. Particle filter is designed for non-Gaussian distribution nonlinear process.
 Sometimes we can combine these two models to process a system model which is not entirely nonlinear and non-Gaussian.
