@@ -119,7 +119,7 @@ E.g., Marginalized Particle Filter, Mixture Kalman Filter.
 
 ### 4. RANSAC.
 Here, we show the result of RANSAC for fit noise data, where the Least Square is not applicable.
-![unnorm](./RANSAC/Figure_1.png)
+![unnorm](./RANSAC/Figure_2.png)
 
 ### References 
 [Kalman-and-Bayesian-Filters-in-Python: Particle filter](https://nbviewer.org/github/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/12-Particle-Filters.ipynb)
