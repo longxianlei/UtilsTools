@@ -119,6 +119,7 @@ E.g., Marginalized Particle Filter, Mixture Kalman Filter.
 
 ### 4. RANSAC.
 Here, we show the result of RANSAC for fit noise data, where the Least Square is not applicable.
+The black line is the estimated best model to fit these noise data.
 ![unnorm](./RANSAC/Figure_2.png)
 
 ### References 
